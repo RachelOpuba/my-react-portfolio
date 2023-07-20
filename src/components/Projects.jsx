@@ -26,26 +26,26 @@ const Projects = () => {
               />
             </a>
           </div>
-          <div className="w-[100%] md:w-[60%] flex flex-col text-gray-700  lg:ps-8 ps-4 pe-4 xl:pe-40  lg:pe-20">
+          <div className="w-[100%] md:w-[60%] flex flex-col text-gray-700  lg:ps-8 ps-4 pe-4 xl:pe-40  lg:pe-20 text-[18px]">
             <h2 className="uppercase text-center font-bold text-xl pb-4">
               No Debt
             </h2>
-            <p className="text-center  lg:text-[18px]">
+            <p className="text-center  ">
               No Debt is a loan prediction software that leverages the
               predictive analytics and advanced algorithms of an AI model to
               analyze borrowers' data, providing accurate predictions of default
               possibilities.
             </p>
-            <p className="text-center pt-2 lg:text-[18px]">
+            <p className="text-center pt-2 ">
               This, in turn, aids in significantly minimizing the occurrence of
               loan defaults, thereby contributing to a substantial reduction in
               their overall frequency.
             </p>
-            <div className="flex lg:pt-6 pt-4 justify-center gap-8 font-bold text-[16px]">
+            <div className="flex lg:pt-6 pt-4 justify-center gap-8 font-bold ">
               <p>React</p>
               <p> CSS</p>
             </div>
-            <div className="flex text-center justify-center gap-6 lg:pt-6 pt-4 font-bold text-[16px]">
+            <div className="flex text-center justify-center gap-6 lg:pt-6 pt-4 font-bold ">
               <a
                 href="https://github.com/RachelOpuba/no-debt-LoanApp"
                 target="_blank"

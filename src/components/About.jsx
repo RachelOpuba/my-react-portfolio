@@ -19,13 +19,13 @@ const About = () => {
   return (
     <>
       <div
-        className="p-6 md:p-24 border flex  flex-col  md:flex-row justify-center md:justify-around"
+        className="p-6 md:py-24  mdp-4 border flex  flex-col  md:flex-row justify-center md:justify-around"
         id="about"
       >
         <h3 className="uppercase text-[#567bfd] font-bold  md:hidden text-center text-lg py-6">
           About me
         </h3>
-        <div className="w-full md:w-[40%] md:mt-12 mb-8 md:mx-auto">
+        <div className="w-full md:w-[40%] md:mt-12 mb-8 mx-auto flex justify-center items-center md:items-start">
           <img
             src={currentImage}
             alt="someone working on computer "
@@ -33,7 +33,7 @@ const About = () => {
           />
         </div>
 
-        <div className="w-full md:w-[60%] text-gray-700 md:pe-16 md:ps-6">
+        <div className="w-full md:w-[60%] text-gray-700 lg:pe-16 md:ps-6 text-[18px]">
           <h3 className="uppercase pb-4 text-[#567bfd] font-bold hidden md:block">
             About me
           </h3>
@@ -53,7 +53,7 @@ const About = () => {
             <div className=" hidden lg:block">
               <h4 className="font-bold">Name</h4>
               <p className="">Rachel Opuba</p>
-              <h4 className="font-bold pt-4">Email</h4>
+              <h4 className="font-bold pt-11">Email</h4>
               <p>ogbenirach@gmail.com</p>
             </div>
             <div>

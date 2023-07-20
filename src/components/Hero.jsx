@@ -2,7 +2,6 @@ import profile from "../assets/images/profile.jpeg";
 import Card from "./Card";
 import { TypeAnimation } from "react-type-animation";
 
-
 const Hero = () => {
   return (
     <>
@@ -44,11 +43,11 @@ const Hero = () => {
             </p>
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-16 md:mt-0">
-            <div className="rounded-l-full rounded-r-full border-4 p-1 w-48 h-58 md:h-72 h-[240px] relative mr-20 lg:mr-0">
+            <div className="rounded-l-full rounded-r-full border-4 p-1 w-48  md:h-72 h-[250px] relative mr-20 lg:mr-0">
               <img
                 src={profile}
                 alt="raachel"
-                className="rounded-l-full rounded-r-full h-52 md:h-60 w-fit ml-4 mt-1"
+                className="rounded-l-full rounded-r-full h-56 md:h-60 w-fit ml-3 mt-1"
               />
               <div className="absolute top-4 left-40 md:left-44">
                 <Card

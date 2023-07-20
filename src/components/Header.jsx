@@ -9,13 +9,14 @@ const Header = () => {
   };
   return (
     <>
-      <div className="flex justify-between items-center w-full px-4 py-4 md:py-0 bg-[#191d2d] text-white">
+      <div className="flex justify-between items-center w-full px-4 py-4 md:py-0 bg-[#191d2d] text-white text-[18px]">
         <div className="md:hidden block">
           <p>Rachel.dev</p>
         </div>
         <AiOutlineMenu
           onClick={handleNav}
           className="top-8 right-4 z-[99]  text-white text-2xl md:hidden cursor-pointer"
+          size={30}
         />
       </div>
 
