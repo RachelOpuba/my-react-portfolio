@@ -47,10 +47,27 @@ const Header = () => {
               </Link>
             </li>
             <li onClick={handleNav} className="md:pe-8 cursor-pointer pt-8">
-              Projects
+              <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                Projects
+              </Link>
             </li>
+
             <li onClick={handleNav} className="cursor-pointer pt-8">
-              Contact
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
@@ -83,7 +100,7 @@ const Header = () => {
                   spy={true}
                   smooth={true}
                   offset={50}
-                  duration={500}
+                  duration={1200}
                 >
                   Projects
                 </Link>
@@ -93,8 +110,8 @@ const Header = () => {
                   to="contact"
                   spy={true}
                   smooth={true}
-                  offset={-100}
-                  duration={500}
+                  offset={50}
+                  duration={1500}
                 >
                   Contact
                 </Link>

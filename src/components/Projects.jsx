@@ -9,7 +9,7 @@ import { IoMdOpen } from "react-icons/io";
 const Projects = () => {
   return (
     <>
-      <div id="projects">
+      <div id="projects" className="pb-8">
         <div className="pt-12 pb-10">
           <h2 className="text-center text-blue-500 text-xl font-bold">
             PORTFOLIO
@@ -77,8 +77,8 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="md:flex pb-20">
-          <div className="w-[100%] md:w-[50%] flex flex-col text-gray-700  text-[18px] px-8">
+        <div className="md:flex items-center pb-20">
+          <div className="w-[100%] md:w-[50%] flex flex-col text-gray-700  text-[18px] px-2 lg:px-8">
             <h2 className="uppercase text-center font-bold text-xl pb-4">
               VINSIGHTE CLONE
             </h2>
@@ -101,7 +101,7 @@ const Projects = () => {
             </div>
             <div className="flex text-center justify-center gap-6 lg:pt-6 pt-4 font-bold ">
               <a
-                href="https://github.com/RachelOpuba/netflix-clone-stutern-task"
+                href="https://github.com/RachelOpuba/kodecamp-activity-8"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -114,7 +114,7 @@ const Projects = () => {
               </a>
               <p className="flex gap-1 items-center">
                 <a
-                  href="https://stuteren-cloning-task.netlify.app/ "
+                  href="https://cloning-v-site-task.netlify.app/ "
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -126,21 +126,21 @@ const Projects = () => {
               </p>
             </div>
           </div>
-          <div className=" w-full md:w-[50%] lg:w-[40%] flex  lg:ms-10 lg:justify-end md:ms-4 lg:pe-6 md:pe-4 mb-6">
+          <div className=" w-full md:w-[50%] lg:w-[40%] flex  lg:ms-10 lg:justify-end md:ms-4 lg:pe-6 md:pe-4 mb-6 mt-12 md:mt-0">
             <a
-              href="https://stuteren-cloning-task.netlify.app/ "
+              href="https://cloning-v-site-task.netlify.app/ "
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
                 src={vinsight}
                 alt="Netflix clone"
-                className="lg:h-[280px] border"
+                className="lg:h-[280px] "
               />
             </a>
           </div>
         </div>
-        <div className="md:flex pb-20">
+        <div className="md:flex items-center pb-20 ">
           <div className=" w-full md:w-[50%] lg:w-[40%] flex  lg:ms-20 lg:justify-end md:ms-4 lg:pe-6 md:pe-4 mb-6">
             <a
               href="https://stuteren-cloning-task.netlify.app/ "
@@ -154,7 +154,7 @@ const Projects = () => {
               />
             </a>
           </div>
-          <div className="w-[100%] md:w-[50%] flex flex-col text-gray-700  text-[18px] px-8">
+          <div className="w-[100%] md:w-[60%] flex flex-col text-gray-700  text-[18px] px-2 lg:px-8">
             <h2 className="uppercase text-center font-bold text-xl pb-4">
               NETFLIX
             </h2>
