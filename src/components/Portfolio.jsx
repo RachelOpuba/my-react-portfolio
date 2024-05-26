@@ -11,7 +11,7 @@ import Footer from "./Footer";
 const Portfolio = () => {
   return (
     <>
-      <div className="max-w-[1440px] mx-auto">
+      <div className=" mx-auto">
         <Header />
         <Hero />
         <About />

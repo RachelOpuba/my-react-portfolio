@@ -75,8 +75,8 @@ const Header = () => {
         ""
       )}
 
-      <div>
-        <nav className="h-10  hidden md:flex justify-between py-8 px-16 text-md font-semibold  text-white bg-[#191d2d]">
+      <div className="w-full bg-[#191d2d]">
+        <nav className="h-10  hidden md:flex justify-between py-8 px-16 text-md font-semibold  text-white w-full max-w-[1440px] mx-auto">
           <div>
             <p>Rachel.dev</p>
           </div>

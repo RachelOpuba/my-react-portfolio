@@ -9,7 +9,10 @@ import { IoMdOpen } from "react-icons/io";
 const Projects = () => {
   return (
     <>
-      <div id="projects" className="pb-8">
+    <div  className="w-full">
+    <div className="max-w-[1440px] mx-auto">
+
+      <div id="projects" className="pb-8 ">
         <div className="pt-12 pb-10">
           <h2 className="text-center text-blue-500 text-xl font-bold">
             PORTFOLIO
@@ -29,7 +32,7 @@ const Projects = () => {
               />
             </a>
           </div>
-          <div className="w-[100%] md:w-[60%] flex flex-col text-gray-700  lg:ps-8 ps-4 pe-4 xl:pe-40  lg:pe-20 text-[18px]">
+          <div className="w-full  xl:max-w-[800px]  md:w-[60%] flex flex-col text-gray-700  lg:ps-8 ps-4 pe-4 xl:pe-40  lg:pe-20 text-[18px]">
             <h2 className="uppercase text-center font-bold text-xl pb-4">
               No Debt
             </h2>
@@ -78,7 +81,7 @@ const Projects = () => {
         </div>
 
         <div className="md:flex items-center pb-20">
-          <div className="w-[100%] md:w-[50%] flex flex-col text-gray-700  text-[18px] px-2 lg:px-8">
+          <div className="w-[100%] xl:max-w-[800px] md:w-[50%] flex flex-col text-gray-700  text-[18px] px-2 lg:px-8">
             <h2 className="uppercase text-center font-bold text-xl pb-4">
               VINSIGHTE CLONE
             </h2>
@@ -154,7 +157,7 @@ const Projects = () => {
               />
             </a>
           </div>
-          <div className="w-[100%] md:w-[60%] flex flex-col text-gray-700  text-[18px] px-2 lg:px-8">
+          <div className="w-[100%] xl:max-w-[800px] md:w-[60%] flex flex-col text-gray-700  text-[18px] px-2 lg:px-8">
             <h2 className="uppercase text-center font-bold text-xl pb-4">
               NETFLIX
             </h2>
@@ -208,6 +211,9 @@ const Projects = () => {
           </div>
         </div>
       </div>
+    </div>
+
+    </div>
     </>
   );
 };

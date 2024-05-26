@@ -7,7 +7,8 @@ import { BsTelephoneOutbound } from "react-icons/bs";
 const Contact = () => {
   return (
     <>
-      <div className="px-8  md:px-20 lg:px-40 " id="contact">
+    <div className="w-full">
+      <div className=" max-w-[1440px] mx-auto px-8  md:px-20 lg:px-40 " id="contact">
         <h2 className="uppercase text-[#567bfd] font-bold pb-2 ">Contact</h2>
         <p className="font-bold pb-8 text-[18px] text-gray-700">
           Feel free to contact me! Hit me up
@@ -36,6 +37,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
+
+    </div>
     </>
   );
 };

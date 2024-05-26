@@ -8,7 +8,8 @@ import { BiLogoTailwindCss } from "react-icons/bi";
 const Skills = () => {
   return (
     <>
-      <div className=" bg-[#191d2d] py-16 px-0 md:py-8 md:px-8 grid grid-cols-3 md:grid-cols-7">
+    <div className="bg-[#191d2d]  w-full">
+      <div className=" w-full max-w-[1440px] mx-auto py-16 px-0 md:py-8 md:px-8 grid grid-cols-3 md:grid-cols-7">
         <div className="flex justify-center items-center flex-col px-4 md:px-0">
           <GrReactjs className="text-blue-500 " size={50} />
           <p className="text-white">React</p>
@@ -39,6 +40,8 @@ const Skills = () => {
           <p className="text-white">CSS</p>
         </div>
       </div>
+
+    </div>
     </>
   );
 };

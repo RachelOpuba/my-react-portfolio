@@ -19,7 +19,7 @@ const About = () => {
   return (
     <>
       <div
-        className="p-6 md:py-24  mdp-4 border flex  flex-col  md:flex-row justify-center md:justify-around"
+        className="w-full max-w-[1440px] mx-auto p-6 md:py-24  mdp-4  flex  flex-col  md:flex-row justify-center md:justify-around"
         id="about"
       >
         <h3 className="uppercase text-[#567bfd] font-bold  md:hidden text-center text-lg py-6">
